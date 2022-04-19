@@ -33,12 +33,3 @@
       "message": "Webhook execution successful"
     }
   }
-
-# Fufillment response
-#{
-#  "fulfillmentMessages": [],
-#  "fulfillmentText": "Greetings from webhook"
-#}
-
-# Fufillment status
-# Webhook execution successful

@@ -1,0 +1,44 @@
+# Fufillment request
+{
+    "responseId": "dc50c293-6bd2-4c2d-b682-ad291d576e29-74fe87bc",
+    "queryResult": {
+      "queryText": "webhook are you there?",
+      "action": "test_connection",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Greetings from webhook",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Greetings from webhook"
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/cruisebookingagent-imxo/agent/intents/d3be9d60-43c9-4069-8738-992a54b6b3de",
+        "displayName": "Test connection"
+      },
+      "intentDetectionConfidence": 1,
+      "diagnosticInfo": {
+        "webhook_latency_ms": 61
+      },
+      "languageCode": "en",
+      "sentimentAnalysisResult": {
+        "queryTextSentiment": {}
+      }
+    },
+    "webhookStatus": {
+      "message": "Webhook execution successful"
+    }
+  }
+
+# Fufillment response
+#{
+#  "fulfillmentMessages": [],
+#  "fulfillmentText": "Greetings from webhook"
+#}
+
+# Fufillment status
+# Webhook execution successful
